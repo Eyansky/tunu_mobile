@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        >
+
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:src="@drawable/logo1"
+            android:layout_gravity="center"
+            android:layout_marginTop="80sp"
+            />
+
+        <TextView
+            android:text="Tunu Terms &amp; conditions"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24sp"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="238sp"
+            android:layout_height="101sp"
+            android:layout_gravity="center"
+            android:text="Please review and accept our terms and conditions before continuing."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:id="@+id/accept"
+            android:layout_width="208sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Accept"
+            android:textColor="@android:color/white"
+            android:background="#0042de"
+            android:layout_margin="20sp"
+            />
+
+        <Button
+            android:id="@+id/decline"
+            android:layout_width="208sp"
+            android:layout_height="wrap_content"
+            android:textColor="#0042de"
+            android:layout_gravity="center"
+            android:text="Decline"
+            android:background="#eff0f1"
+            />
+        <TextView
+            android:layout_width="177dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp"
+            android:text="WE ONLY USE INFORMATION TO VERIFY YOUR IDENTITY AND SAVE YOUR PROGRESS"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        >
+
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:src="@drawable/registration"
+            android:layout_gravity="center"
+            android:layout_marginTop="80sp"
+            />
+
+        <TextView
+            android:text="Registration"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24sp"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Enter your mobile number to receive A verification Code "
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/text_input"
+            android:layout_width="278sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:text="+254 (7)"
+            android:maxLength="16"/>
+
+        <Button
+            android:id="@+id/accept"
+            android:layout_width="278sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Get Code"
+            android:textColor="@android:color/white"
+            android:background="#0042de"
+            android:layout_margin="20sp"
+            />
+
+
+        <TextView
+            android:layout_width="208sp"
+            android:layout_height="54sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="90sp"
+            android:text="WE ONLY USE INFORMATION TO VERIFY YOUR IDENTITY AND SAVE YOUR PROGRESS"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
